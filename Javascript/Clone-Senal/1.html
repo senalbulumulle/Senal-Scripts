@@ -1,0 +1,41 @@
+<!-- The Starting Screen -->
+<meta http-equiv = "refresh" content = "4; url = 2.html" />
+<style>
+    /* Styles for the menu*/
+    body{
+        margin:40px;
+        animation-name:starting_animation_1;
+        animation-duration:3s;
+        background-color:white;
+        font-size:10px;
+    }
+    .dancing_senal{
+        animation-name:dancing_senal;
+        animation-duration:3s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes dancing_senal {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-9deg); }
+        20% { transform: translate(-3px, 0px) rotate(9deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(9deg); }
+        50% { transform: translate(-1px, 2px) rotate(-9deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-9deg); }
+        80% { transform: translate(-1px, -1px) rotate(9deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-9deg); }
+      }
+</style>
+
+<h1> <center>Wait For it ...</center></center.></h1>
+
+
+
+<center>
+<div class="dancing_senal">
+<img src="Image/senal.png">
+
+</div>
+</center>
