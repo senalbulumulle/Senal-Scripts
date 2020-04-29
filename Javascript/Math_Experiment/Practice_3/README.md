@@ -1,2 +1,2 @@
 ## Practice 3
-### Using Math.js  for complex math equations.
+### Using CoffeeScript for using complex math equations
