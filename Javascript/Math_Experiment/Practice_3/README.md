@@ -1,2 +1,2 @@
 ## Practice 3
-### Using CoffeeScript for using complex math equations
+### May use other JS libraries for complex math problems for this experiment
