@@ -1,0 +1,14 @@
+{
+  "name": "practice_3",
+  "version": "1.0.0",
+  "description": "Using CoffeeScript as an experiment for using complex math equations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Senal Bulumulle",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "coffeescript": "^2.5.1"
+  }
+}
