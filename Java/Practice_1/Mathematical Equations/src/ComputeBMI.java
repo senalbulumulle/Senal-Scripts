@@ -21,8 +21,8 @@ public class ComputeBMI {
 		final double METERS_PER_INCH = 0.0254;
 		
 		// Create variables to calculate BMI
-		double weightInKilograms = weight = KILOGRAMS_PER_POUND;
-		double heightInMeters = height = METERS_PER_INCH;
+		double weightInKilograms = weight * KILOGRAMS_PER_POUND;
+		double heightInMeters = height * METERS_PER_INCH;
 		
 		// Calculate BMI 
 		double bmi = weightInKilograms / (heightInMeters * heightInMeters);
