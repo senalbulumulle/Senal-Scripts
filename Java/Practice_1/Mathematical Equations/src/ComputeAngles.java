@@ -6,6 +6,7 @@ public class ComputeAngles {
 		// Create a Scanner Object
 		Scanner input = new Scanner(System.in);
 		// Prompts the user to enter three points 
+		// For example,for (5,3) type 5 3 
 		System.out.print("Enter three points: ");
 		double x1 = input.nextDouble();
 		double y1 = input.nextDouble();
