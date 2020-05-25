@@ -51,7 +51,16 @@ public class CountriesAndContinents {
 					country.equals("North Korea") ||
 					country.equals("Thailand") ||
 					country.equals("Vietnam") ||
-					country.equals("Cambodia"))
+					country.equals("Cambodia")||
+					country.equals("Nepal") ||
+					country.equals("Saudi Arabia") ||
+					country.equals("Bangladesh") ||
+					country.equals("Maldives") ||
+					country.equals("Afghanistan") || 
+					country.equals("Iraq") ||
+					country.equals("Syria") ||
+					country.equals("United Arab Emirates") ||
+					country.equals("Armenia"))
 				System.out.print(country + " is in Asia");
 		else 
 				System.out.print("I don't know where " + country + " is. " );
