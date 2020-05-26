@@ -4,7 +4,7 @@ public class SubtractionQuizLoop {
 
 	public static void main(String[] args) {
 		// Number of Questions.
-		final int NUMBER_OF_QUESTIONS = 5; 
+		final int NUMBER_OF_QUESTIONS = 10; 
 		
 		// Count the number of correct answers.
 		int correctCount = 0;
@@ -25,7 +25,7 @@ public class SubtractionQuizLoop {
 		while (count < NUMBER_OF_QUESTIONS) {
 			int number1 = (int) (Math.random() * 10);
 			int number2 = (int) (Math.random() * 10);
-		}
+		
 		
 		
 		// If number1 < number2, swap number1 with number2.
@@ -65,6 +65,7 @@ public class SubtractionQuizLoop {
 	long endTime =  System.currentTimeMillis();
 	long testTime = endTime - startTime;
 	
-	System.out.println("Correct count is " + correctCount + "\nTest Time is" + testTime / 1000 + "seconds\n" + output);
+	System.out.println("Correct count is " + correctCount + "\nTest Time is: " + testTime / 1000 + " seconds\n " + output);
 	
+}
 }
