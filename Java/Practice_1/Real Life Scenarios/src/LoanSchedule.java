@@ -46,6 +46,22 @@ public class LoanSchedule {
 		// Print out monthly information
 			System.out.println("Monthly Payment: " + (int) (monthlyRepayment * 100) / 100.0);
 			
+		// Print total payment
+			System.out.println("Total Payment: " + (int) (monthlyRepayment * 12 * numOfYears * 100) / 100.0 + "\n");
+			
+		// Print out all monthly payments
+			System.out.println("Payment#\tInterest\tPrincipal\tBalance");
+			
+		// Print out each monthly payment in a loop for the number of years of a loan.
+			for (int i = 1; i <= numOfYears * 12; i++) {
+				interest = (int) (monthlyInterestRate * balance * 100) / 100.0;
+				principal = (int) ((monthlyRepayment - interest) * 100) / 100.0;
+				balance = (int) ((balance - principal) * 100) / 100.0;
+				System.out.println(i + "\t\t" + interest + "\t\t" + principal + "\t\t" + balance);
+				
+			}
+			
+			
 	}
 
 }
