@@ -50,10 +50,12 @@ ______
 		- [PrintCalendar.java](#printcalendarjava)
 		- [TestMax.java](#testmaxjava)
 	- [Senal Practice Folder](#senal-practice-folder)
+		- [AdditionQuiz.java](#additionquizjava-1)
 		- [DeckOfCards.java](#deckofcardsjava)
 		- [Fun.java](#funjava)
 		- [OrderTwoCities.java](#ordertwocitiesjava)
 		- [Palindrome.java](#palindromejava)
+		- [SubtractionQuiz.java](#subtractionquizjava-1)
 		- [TestVoidMethod.java](#testvoidmethodjava)
 		- [zodiac.java](#zodiacjava)
 	- [Writing String Code](#writing-string-code)
@@ -1828,6 +1830,42 @@ public class TestMax {
 ______
 ### Senal Practice Folder
 ______
+#### AdditionQuiz.java
+````java
+import java.util.Scanner;
+
+
+
+
+public class AdditionQuiz {
+
+	public static void main(String[] args) {
+		// Create a Scanner Object
+		Scanner input =  new Scanner(System.in);
+		
+		// Create a Variable for the first number
+		int num1 = (int)(Math.random() * 10);
+		
+		// Create a Variable for the second number
+		int num2 = (int)(Math.random() * 10);
+		
+		// Print the first addition question
+		System.out.print("What is " +  num1 +  " + " + num2 + " ? ");
+		
+		// Create a Variable for the Answer
+		int answer = input.nextInt();
+		
+		
+		// Print if the answer is correct or not. 
+		if (num1 + num2 == answer)
+				System.out.println("You are Correct");
+		else {
+			System.out.println("You are incorrect. The correct answer is " + (num1 + num2));
+		}
+	}
+
+}
+````
 #### DeckOfCards.java
 ````java
 public class DeckOfCards {
@@ -1975,6 +2013,41 @@ public class Palindrome {
 			System.out.println(s + " is not a palindrome");
 			
 
+	}
+
+}
+````
+#### SubtractionQuiz.java
+````java
+import java.util.Scanner;
+
+
+
+
+public class SubtractionQuiz {
+
+	public static void main(String[] args) {
+		// Create a new Scanner Object
+		Scanner input = new Scanner(System.in);
+		
+		// Create a Variable for the first number 
+		int num2 = (int)(Math.random() * 10);
+		
+		// Create a Variable for the second number
+		int num1 = (int)(Math.random() * 10);
+		
+		// Print out the Question 
+		System.out.print("What is " + num2 + " - " + num1 + " ? ");
+		
+		// Create a Variable for the answer 
+		int answer = input.nextInt();
+		
+		// Print out the Answer
+		if (num2 - num1 == answer)
+			System.out.println("You are correct ");
+		else {
+			System.out.println("You are incorrect. The correct answer is " + (num2 - num1));
+		}
 	}
 
 }
