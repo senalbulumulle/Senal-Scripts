@@ -7,6 +7,7 @@ ______
 	- [Characteristics of Java](#characteristics-of-java)
 	- [Basic Java Terminology](#basic-java-terminology)
 	- [A Main Class Example](#a-main-class-example)
+	- [Methods](#methods)
 - [Java Reference](#java-reference)
 	- [Demo Folder](#demo-folder)
 		- [ComputeExpression.java](#computeexpressionjava)
@@ -124,6 +125,18 @@ public class Hello {
     }
 }
 ```
+### Methods 
+*  Definition: Things that you need to be done.
+  * printMonthBody = print the body under the title .
+  * printMonthTitle = printing the title month.
+  * getMonthName = selecting the name of the month.
+  * getMonthName = selecting the name of the month.
+    * 1 = Jan
+    * 2 = Feb
+    * 3 = Mar
+    * 4 = April
+  * getStartDay = getting the 1st of each month and what day.
+
 
 
 
