@@ -2,61 +2,63 @@ ______
 ## Java Reference 
 ______ 
 - [Java Reference](#java-reference)
-  - [Demo Folder](#demo-folder)
-    - [ComputeExpression.java](#computeexpressionjava)
-    - [DisplayTime.java](#displaytimejava)
-    - [Welcome.java](#welcomejava)
-  - [Mathematical Equations Folder](#mathematical-equations-folder)
-    - [AdditionQuiz.java](#additionquizjava)
-    - [CalculateAge.java](#calculateagejava)
-    - [CalculatingPi.java](#calculatingpijava)
-    - [ComputeAngles.java](#computeanglesjava)
-    - [ComputeAreaWithConsoleInput.java](#computeareawithconsoleinputjava)
-    - [ComputeAverage.java](#computeaveragejava)
-    - [ComputeBMI.java](#computebmijava)
-    - [ComputeChange.java](#computechangejava)
-    - [ComputeBMI.java](#computebmijava-1)
-    - [ComputeLoan.java](#computeloanjava)
-    - [FactorQuiz.java](#factorquizjava)
-    - [FahrenheitToCelsius.java](#fahrenheittocelsiusjava)
-    - [FindingAverage.java](#findingaveragejava)
-    - [GreatestCommonDivisor.java](#greatestcommondivisorjava)
-    - [GuessBirthday.java](#guessbirthdayjava)
-    - [HexDigit.java](#hexdigitjava)
-    - [Lab.java](#labjava)
-    - [LinearEquations.java](#linearequationsjava)
-    - [Lottery.java](#lotteryjava)
-    - [MathDemo.java](#mathdemojava)
-    - [Multiplication.java](#multiplicationjava)
-    - [RepeatAdditionQuiz.java](#repeatadditionquizjava)
-    - [SentinelValue.java](#sentinelvaluejava)
-    - [showCurrentTime.java](#showcurrenttimejava)
-    - [SubtractionQuiz.java](#subtractionquizjava)
-    - [SubtractionQuizLoop.java](#subtractionquizloopjava)
-    - [TestSum.java](#testsumjava)
-  - [Real Life Scenarios](#real-life-scenarios)
-    - [CalculateBucketFillUpTime.java](#calculatebucketfilluptimejava)
-    - [CalculateMilesPerGallon.java](#calculatemilespergallonjava)
-    - [CountriesAndContinents.java](#countriesandcontinentsjava)
-    - [FutureTuition.java](#futuretuitionjava)
-    - [GuessNumber.java](#guessnumberjava)
-    - [LoanSchedule.java](#loanschedulejava)
-    - [PrintCalendar.java](#printcalendarjava)
-    - [TestMax.java](#testmaxjava)
-  - [Senal Practice Folder](#senal-practice-folder)
-    - [AdditionQuiz.java](#additionquizjava-1)
-    - [DeckOfCards.java](#deckofcardsjava)
-    - [Fun.java](#funjava)
-    - [OrderTwoCities.java](#ordertwocitiesjava)
-    - [Palindrome.java](#palindromejava)
-    - [SubtractionQuiz.java](#subtractionquizjava-1)
-    - [TestVoidMethod.java](#testvoidmethodjava)
-    - [zodiac.java](#zodiacjava)
-  - [Writing String Code](#writing-string-code)
-    - [CapitalTrivia.java](#capitaltriviajava)
-    - [Chapt6Lab.java](#chapt6labjava)
-    - [chineseZodiac.java](#chinesezodiacjava)
-    - [StringReverse.java](#stringreversejava)
+	- [Demo Folder](#demo-folder)
+		- [ComputeExpression.java](#computeexpressionjava)
+		- [DisplayTime.java](#displaytimejava)
+		- [Welcome.java](#welcomejava)
+	- [Mathematical Equations Folder](#mathematical-equations-folder)
+		- [AdditionQuiz.java](#additionquizjava)
+		- [AreaQuiz.java](#areaquizjava)
+		- [CalculateAge.java](#calculateagejava)
+		- [CalculatingPi.java](#calculatingpijava)
+		- [ComputeAngles.java](#computeanglesjava)
+		- [ComputeAreaWithConsoleInput.java](#computeareawithconsoleinputjava)
+		- [ComputeAverage.java](#computeaveragejava)
+		- [ComputeBMI.java](#computebmijava)
+		- [ComputeChange.java](#computechangejava)
+		- [ComputeBMI.java](#computebmijava-1)
+		- [ComputeLoan.java](#computeloanjava)
+		- [FactorQuiz.java](#factorquizjava)
+		- [FahrenheitToCelsius.java](#fahrenheittocelsiusjava)
+		- [FindingAverage.java](#findingaveragejava)
+		- [GreatestCommonDivisor.java](#greatestcommondivisorjava)
+		- [GuessBirthday.java](#guessbirthdayjava)
+		- [HexDigit.java](#hexdigitjava)
+		- [Lab.java](#labjava)
+		- [LinearEquations.java](#linearequationsjava)
+		- [Lottery.java](#lotteryjava)
+		- [MathDemo.java](#mathdemojava)
+		- [Multiplication.java](#multiplicationjava)
+		- [RepeatAdditionQuiz.java](#repeatadditionquizjava)
+		- [SentinelValue.java](#sentinelvaluejava)
+		- [showCurrentTime.java](#showcurrenttimejava)
+		- [SubtractionQuiz.java](#subtractionquizjava)
+		- [SubtractionQuizLoop.java](#subtractionquizloopjava)
+		- [TestSum.java](#testsumjava)
+	- [Real Life Scenarios](#real-life-scenarios)
+		- [CalculateBucketFillUpTime.java](#calculatebucketfilluptimejava)
+		- [CalculateMilesPerGallon.java](#calculatemilespergallonjava)
+		- [CountriesAndContinents.java](#countriesandcontinentsjava)
+		- [FutureTuition.java](#futuretuitionjava)
+		- [GuessNumber.java](#guessnumberjava)
+		- [LoanSchedule.java](#loanschedulejava)
+		- [PrintCalendar.java](#printcalendarjava)
+		- [TestMax.java](#testmaxjava)
+	- [Senal Practice Folder](#senal-practice-folder)
+		- [AdditionQuiz.java](#additionquizjava-1)
+		- [DeckOfCards.java](#deckofcardsjava)
+		- [Fun.java](#funjava)
+		- [Intro.java](#introjava)
+		- [OrderTwoCities.java](#ordertwocitiesjava)
+		- [Palindrome.java](#palindromejava)
+		- [SubtractionQuiz.java](#subtractionquizjava-1)
+		- [TestVoidMethod.java](#testvoidmethodjava)
+		- [zodiac.java](#zodiacjava)
+	- [Writing String Code](#writing-string-code)
+		- [CapitalTrivia.java](#capitaltriviajava)
+		- [Chapt6Lab.java](#chapt6labjava)
+		- [chineseZodiac.java](#chinesezodiacjava)
+		- [StringReverse.java](#stringreversejava)
 
 ______
 ### Demo Folder
@@ -143,6 +145,41 @@ public class AdditionQuiz {
 		// display equation with user answer. 
 		System.out.println(number1 + " + " + number2 + " = " + answer + " is " + (number1 + number2 == answer));
 		
+	}
+
+}
+````
+#### AreaQuiz.java
+````java
+import java.util.Scanner;
+
+
+public class AreaQuiz {
+
+	public static void main(String[] args) {
+		
+		// Create a variable called Length
+		int length = (int)(Math.random() * 100) + 1;
+		
+		// Create a variable called Width
+		int width = (int)(Math.random() * 100) + 1;
+		
+		System.out.println("If the length is " + length + " and the width is " + width + ", what is the area?");
+		
+		// Create a Scanner Object 
+		Scanner input = new Scanner(System.in);
+		
+		// Create the area variable
+		int area = input.nextInt();
+		
+		// Print out if the answer is right or wrong. 
+		if (length * width == area)
+			System.out.println("You are correct!");
+		else {
+			System.out.println("You are incorrect. The Area is: " + length * width);
+		}
+		
+
 	}
 
 }
@@ -1784,6 +1821,40 @@ public class Fun {
 		
 
 	}
+````
+#### Intro.java
+````java
+import java.util.Scanner;
+
+
+
+
+public class Intro {
+
+	public static void main(String[] args) {
+
+		// Create a new Scanner Object.
+		Scanner input = new Scanner(System.in);
+
+		// Prompt the User to enter their name. For Example, Senal Bulumulle.
+		System.out.print("Enter your Name: ");
+
+		// Create a String Variable called Name.
+		String name = input.nextLine();
+
+		// Prompt the User to enter their age. 
+		System.out.print("Enter your Age: ");
+
+		// Create a String Variable called age.
+		String age = input.nextLine();
+
+		// Prints out the User's Information.
+		System.out.println("Here is your information ");
+		System.out.println("Name: " + name);
+		System.out.println("Age: " + age);
+	}
+
+}
 ````
 #### OrderTwoCities.java
 ````java
