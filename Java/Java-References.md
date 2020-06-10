@@ -175,7 +175,7 @@ public class AreaOfTriangle {
 		
 		// If the User gets the right answer, it will say that it is correct. Followed by the "if" on Line 24.
 		// If the User gets the wrong answer, it will say that it is incorrect. Followed by the "else" on Line 27.
-		if (base * height == area)
+		if (base * height * 0.5 == area)
 			System.out.println("You are Correct");
 		
 		else{
@@ -188,6 +188,7 @@ public class AreaOfTriangle {
 	}
 
 }
+
 ````
 #### AreaQuiz.java
 ````java
