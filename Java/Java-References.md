@@ -1,6 +1,6 @@
 ______
 ## Java Reference 
-______ 
+______
 - [Java Reference](#java-reference)
 	- [Demo Folder](#demo-folder)
 		- [ComputeExpression.java](#computeexpressionjava)
@@ -1168,13 +1168,19 @@ public class PerimeterOfTriangle {
 		
 		// Print user the score 
 		if (side1 + side2 + side3 == perimeter)
+		{
 			System.out.println("You are correct");
-		else {
-			System.out.println("You are incorrect");
+		}
+		else
+		{
+			System.out.println("Your answer is incorrect");
+			
+			
 		}
 	}
-
 }
+		
+
 ````
 #### RepeatAdditionQuiz.java
 ````java
