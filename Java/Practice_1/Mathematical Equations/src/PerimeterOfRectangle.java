@@ -21,9 +21,12 @@ public class PerimeterOfRectangle {
 		int perimeter = input.nextInt();
 		
 		// Prompt the User the Score
-		if ((2 * length) + (2 * width) == perimeter)
+		if ((2 * length) + (2 * width) == perimeter) 
+		{
 			System.out.println("You are correct");
-		else {
+		}
+		else 
+		{
 			System.out.println("You are incorrect");
 		}
 	}
