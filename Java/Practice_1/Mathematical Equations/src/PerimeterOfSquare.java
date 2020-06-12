@@ -17,9 +17,13 @@ public class PerimeterOfSquare {
 		int perimeter = input.nextInt();
 		
 		// Score the User's answer. 
-		if (length * 4 == perimeter)
+		if (length * 4 == perimeter) 
+		{ 
 			System.out.println("You are correct");
-		else {
+		}
+			
+		else 
+		{
 			System.out.println("You are incorrect");
 		}
 	}
