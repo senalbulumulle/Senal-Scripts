@@ -10,8 +10,10 @@ ______
 		- [AdditionQuiz.java](#additionquizjava)
 		- [AreaOfTriangle.java](#areaoftrianglejava)
 		- [AreaQuiz.java](#areaquizjava)
+		- [BucketFill.java](#bucketfilljava)
 		- [CalculateAge.java](#calculateagejava)
 		- [CalculatingPi.java](#calculatingpijava)
+		- [ChangeFrom20.java](#changefrom20java)
 		- [ComputeAngles.java](#computeanglesjava)
 		- [ComputeAreaWithConsoleInput.java](#computeareawithconsoleinputjava)
 		- [ComputeAverage.java](#computeaveragejava)
@@ -23,6 +25,7 @@ ______
 		- [FahrenheitToCelsius.java](#fahrenheittocelsiusjava)
 		- [FIndCircumference.java](#findcircumferencejava)
 		- [FindingAverage.java](#findingaveragejava)
+		- [FiveGroceries.java](#fivegroceriesjava)
 		- [GreatestCommonDivisor.java](#greatestcommondivisorjava)
 		- [GuessBirthday.java](#guessbirthdayjava)
 		- [HexDigit.java](#hexdigitjava)
@@ -45,6 +48,7 @@ ______
 		- [CalculateMilesPerGallon.java](#calculatemilespergallonjava)
 		- [CountriesAndContinents.java](#countriesandcontinentsjava)
 		- [FutureTuition.java](#futuretuitionjava)
+		- [GetAverageGrade.java](#getaveragegradejava)
 		- [GuessNumber.java](#guessnumberjava)
 		- [LoanSchedule.java](#loanschedulejava)
 		- [PrintCalendar.java](#printcalendarjava)
@@ -229,6 +233,44 @@ public class AreaQuiz {
 
 }
 ````
+#### BucketFill.java
+````java
+import java.util.Scanner;
+
+public class BucketFill {
+
+	public static void main(String[] args) {
+		
+		// Create a new Scanner Object
+		Scanner input = new Scanner(System.in);
+		
+		// Prompt the user with the amount of gallons
+		System.out.print("How many gallons does the bucket hold? ");
+		
+		
+		// Create a Scanner Variable called gallons
+		int gallons = input.nextInt();
+	
+		
+		// Prompt the user to enter the flowrate
+		System.out.print("Enter the flowrate of the water hose: ");
+		
+		
+		// Create a scanner variable called flowrate
+		double flowrate = input.nextDouble();
+		
+		
+		// Create a scanner variable to show how much time it will take a bucket to fill up
+		double time = gallons/flowrate;
+		
+		// Prompt the user the output
+		System.out.println("The bucket will be filed in the following number of minutes: " + time);
+		
+		
+	}
+
+}
+````
 #### CalculateAge.java
 ```` java
 import java.util.Scanner;
@@ -302,6 +344,34 @@ public class CalculatingPi {
 					pi += term;
 				}
 				return pi;
+	}
+
+}
+````
+#### ChangeFrom20.java
+````java
+import java.util.Scanner;
+
+
+
+public class ChangeFrom20 {
+
+	public static void main(String[] args) {
+		// Create a new Scanner Object
+		Scanner input = new Scanner(System.in);
+		
+		// Prompt the user to enter the cost 
+		System.out.print("Enter the cost of your item less than $20: ");
+		
+		// Make a double variable for the cost
+		double cost = input.nextDouble();
+		
+		// Make a double variable for the change
+		double change = 20 - cost;
+		
+		// Prompt user the change
+		System.out.println("The change will be $ " + change);
+
 	}
 
 }
@@ -733,6 +803,61 @@ public class FindingAverage {
 
 
 
+	}
+
+}
+````
+#### FiveGroceries.java
+````java
+import java.util.Scanner;
+
+
+
+public class FiveGroceries {
+
+	public static void main(String[] args) {
+		// Create a Scanner Object
+		Scanner input = new Scanner(System.in);
+		
+		// Prompt the User to input the cost of each item.
+		System.out.print("Enter the cost of the first item: ");
+		
+		
+		// Make a double variable for item 1 
+		double item1 = input.nextDouble();
+		
+		// Prompt the User to input the cost of the second item.
+		System.out.print("Enter the cost of the second item: ");
+		
+		
+		// Make a double variable for item 2
+		double item2 = input.nextDouble();
+		
+		// Prompt the User to input the cost of the third item
+		System.out.print("Enter the cost of the third item: ");
+		
+		// Make a double variable for item 3 
+		double item3 = input.nextDouble();
+		
+		// Prompt the User to input the cost of the fourth item
+		System.out.print("Enter the cost of the fourth item: ");
+		
+		// Make a double variable for item 4 
+		double item4 = input.nextDouble();
+		
+		// Prompt the User to input the cost of the fifth item
+		System.out.print("Enter the cost of the fifth item: ");
+		
+		// Make a double variable for item 5
+		double item5 = input.nextDouble();
+		
+		
+		
+		// Create a total cost variable using a double 
+		double totalCost = item1 + item2 + item3 + item4 + item5;
+		
+		// Prompt the user the total cost of the item (s)
+		System.out.println("This total cost is $" + totalCost);
 	}
 
 }
@@ -1622,6 +1747,60 @@ public class FutureTuition {
 		
 		// Print if tuition is not doubled.
 		System.out.printf("Tuition will be $%.2f in %1d years", tuition, year);
+	}
+
+}
+````
+#### GetAverageGrade.java
+````java
+import java.util.Scanner;
+
+
+
+public class GetAverageGrade {
+
+	public static void main(String[] args) {
+		// Create a scanner object
+		Scanner input = new Scanner(System.in);
+		
+		// Prompt User to enter first grade
+		System.out.print("Enter the first grade as a percentage: ");
+		
+		// Make Scanner variable for grade 1 
+		int grade1 = input.nextInt();
+		
+		// Prompt User to enter second grade
+		System.out.print("Enter the second grade as a percentage: ");
+		
+		// Make Scanner variable for grade 2
+		int grade2 = input.nextInt();
+		
+		// Prompt User to enter third grade
+		System.out.print("Enter the third grade as a percentage: ");
+		
+		// Make Scanner variable for grade 3 
+		int grade3 = input.nextInt();
+		
+		// Prompt User to enter fourth grade
+		System.out.print("Enter the fourth grade as a percentage: ");
+		
+		// Make Scanner variable for grade 4
+		int grade4 = input.nextInt();
+		
+		// Prompt User to enter fifth grade
+		System.out.print("Enter the fifth grade as a percentage: ");
+		
+		// Make Scanner variable for grade 5 
+		int grade5 = input.nextInt();
+		
+		
+		// Find and create an average variable 
+		int average = ((grade1 + grade2 + grade3 + grade4 + grade5) / 5);
+		
+		// Prompt user the average 
+		System.out.println("The average is: " + average);
+		
+		
 	}
 
 }
