@@ -102,6 +102,28 @@ public class CountriesAndContinents {
 				country.equals("Urugray") ||
 				country.equals("Venezuela"))
 				System.out.println(country + " is in South America");
+		else if (country.equals("Morocco") ||
+				country.equals("Algeria") ||
+				country.equals("Mali") || 
+				country.equals("Libya") ||
+				country.equals("Niger") ||
+				country.equals("Chad") ||
+				country.equals("Nigeria") ||
+				country.equals("Senegal") ||
+				country.equals("Ghana") ||
+				country.equals("Egypt") ||
+				country.equals("Ethiopia") ||
+				country.equals("Somalia") ||
+				country.equals("Kenya") ||
+				country.equals("Tanzania") ||
+				country.equals("Zambia") ||
+				country.equals("Angola") ||
+				country.equals("Madagascar") ||
+				country.equals("Angola") ||
+				country.equals("Zimbabwe") ||
+				country.equals("Botswana") ||
+				country.equals("South Africa"))
+				System.out.println(country + " is in Africa");
 		else
 			System.out.print("I don't know where " + country + " is. ");
 		
