@@ -1,0 +1,47 @@
+<!-- User Name Generator -->
+<html>
+    <head>
+        <title>User Name Generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="src/FOIL-UI.css" rel="stylesheet">
+        <link href="src/index.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- Use FOIL-Font-Styles Class-->
+        <div class="FOIL-Font-Styles--sans-serif">
+
+            <!-- Use FOIL-Navigation-Bar Class for the Header-->
+            <div class="FOIL-Navigation-Bar color-is-black">
+                <FOIL-Font-Size-20> User Name Generator</FOIL-Font-Size-20>
+            </div>
+
+            <!-- Use the FOIL-Layout Class for the Content -->
+            <div class="FOIL-Layout color-is-black">
+                <p> Enter the first letter of your name and the day of the month you were born</p>
+                
+                <!-- Get User to Input Text-->
+                <input type= "text" id= "stdin" />
+                <p id="credits"></p>
+
+                <!-- Use the Form Tag -->
+                <form id="form">
+
+                    <!-- After the User has entered text into the input box, -->
+                    <!-- They have to click or tap run to run the code.-->
+                    <button id="run" class="FOIL-button color-is-blue">Run</button>
+
+                    <ul></ul>
+
+                    <!-- Use <code> as an output.-->
+                    <code id="output"></code>
+
+                    
+                    <script src="src/index.js"></script>
+                </form>
+
+
+            </div>
+        </div>
+    </body>
+</html>
