@@ -37,7 +37,7 @@ int main()
     circleArea = PI_Value * circleRadius * circleRadius;
 
     // Print the area of the circle to the user 
-    printf("\n Area of the circle is: %d", circleRadius);
+    printf("\n Area of the circle is: %f", circleArea);
 
     // Calculate and display the Circumference Data
     circleCircumference = 2 * PI_Value * circleRadius;
