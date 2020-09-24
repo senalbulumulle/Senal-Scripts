@@ -1,36 +1,30 @@
 #include <stdio.h>
-#include <conio.h>
+#include <ncurses.h>
 
-
-int main(void)
+int main()
 {
-
 	/* Int variables */
-
-	// Make an int variable called fact
-	int fact;
-
-	// Make an int variable called i
-	int i;
-
-	// Make an int variable called n
-	int n;
+	int fact, i, n;
 
 	fact = 1;
 
-	// Prompt the user to enter the number
-	printf("Enter the number:\t");
+	// Prompt the user to enter the number 
+	printf("Enter the number\t");
 
 	// Make a scanner object
 	scanf("%d", &n);
 
-	for (i = 1; i <= n; i++)
+	// Make a for loop
+	for(i = 1; i <= n; i++)
 	{
 		fact = fact * i;
 	}
 
-	// Print the results
+	// Print out the factor
 	printf("Factorial of %d is %d", n, fact);
+
+	// 
+	getch();
 
 	// End the program
 	return 0;
