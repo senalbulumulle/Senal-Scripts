@@ -1,6 +1,6 @@
-# Senal Scripts
+<img src = "./Senal-Scripts.png">
 
-
+***Note: Some programs may require special dependencies and other files in-order for the program provided here in the repository to run***
 ### How to update Senal-Scripts using git in the CLI
 
 ##### To update Senal-Scripts using git in the CLI,
