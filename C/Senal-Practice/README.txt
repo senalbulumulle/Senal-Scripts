@@ -3,4 +3,3 @@ This README file shows the conditions of the files and see if the files are okay
 
 LIST OF FILES THAT IS NEEDED TO BE REPAIRED 
 Sparse-Matrix.c 
-removing-white-space.c
