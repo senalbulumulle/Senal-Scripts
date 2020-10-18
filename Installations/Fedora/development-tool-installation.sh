@@ -3,6 +3,6 @@
 
 sudo dnf update
 
-sudo dnf groupinstall ‘Development Tools’
+sudo dnf -y groupinstall "Development Tools"
 
-sudo dnf groupinstall ‘Development Tools’
+sudo dnf -y groupinstall "Development Tools"
