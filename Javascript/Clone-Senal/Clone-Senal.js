@@ -1,39 +1,45 @@
-/* OY Mates, this is Senal and we are going to clone various different Senal's. */
-/* 2020 Senal Bulumulle */
-/* Javascript Version */ 
+/*******************************************
+ * Clone-Senal.js
+ * Written by Senal Bulumulle
+ * 
+ * 
+ * 
+ *******************************************/
 
-// We are going to make a function called senal. This function contains the image of Senal
-function senal(){
-    // We use document.write to make a img syntax just like in HTML format 
-    document.write("<img src='./Image/senal.png' width='36'></img>"); // This is the image file of Senal 
+
+// Make a function called senal()
+// Use senal() to display the Senal Image
+function senal() {
+    document.write("<img src='./Image/senal.png' width='36'></img>");
 }
 
-
-
-// Then we replicate the image for 5 milliseconds on the clone () function
-function clone(){
-    setInterval(senal,2 );
-    // Console.logs
+// Make a function called clone()
+function clone() {
+    setInterval(senal, 2);
     console.log(clone);
-    
 }
 
+// Make a function called space()
+// Use space() to use the space.png image
+function space() {
 
-
-// Call the Functions 
-senal();
-clone();
-
-// Make a Space for the group of cloned Senals 
-function cloneConsole(){
-    
     document.write("<img src='./Image/space.png' width='36'></img>");
 }
-function cloneTimer(){
-    setInterval(cloneConsole,100);
+
+// Make a function called cloneTimer()
+// Use cloneTimer() 
+function cloneTimer() {
+    setInterval(cloneConsole, 100);
 }
 
-cloneConsole();
-cloneTimer();
+// Make a variable called scroll 
+// Use scroll to auto scroll
+var scroll = setInterval(function () { window.scrollBy(0, 3000); }, 0);
 
-var scroll = setInterval(function(){ window.scrollBy(0,3000); }, 0);
+
+
+// Call the functions
+senal();
+clone();
+space();
+cloneTimer();
