@@ -1,4 +1,4 @@
-##  Installation Script for Ubuntu Server 
+##  Installation Script for Ubuntu
 ##  Written by Senal Bulumulle
 ##  This Script allows the system to install some of the applications and dependencies that are used for coding.
 
@@ -43,6 +43,14 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ## Using wget, install github desktop for ubuntu 
 wget https://github.com/shiftkey/desktop/releases/download/release-2.5.3-linux1/GitHubDesktop-linux-2.5.3-linux1.deb
 
+## Do the thing 
+sudo apt remove ubuntu-desktop
+sudo apt remove gnome-session
+sudo apt remove gnome-shell
+sudo apt remove gdm
+sudo apt install gnome-session
+
+sudo update-alternatives --config gdm3.css
 ## Prompt user that Script is ended 
 echo "######################################################"
 echo "                Script has ended                      "
