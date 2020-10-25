@@ -50,6 +50,10 @@ sudo apt remove gnome-shell
 sudo apt remove gdm
 sudo apt install gnome-session
 
+
+## Install Apps 
+sudo apt install nautilus
+
 sudo update-alternatives --config gdm3.css
 ## Prompt user that Script is ended 
 echo "######################################################"
