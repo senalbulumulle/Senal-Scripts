@@ -8,7 +8,7 @@
 ##### For Example: 
 
 ```sh
-/Computer/Desktop/Code/Senal-Scripts/
+/System/Desktop/Code/Senal-Scripts/
 ```
 
 ### Instructions to update Senal-Scripts from the CLI
