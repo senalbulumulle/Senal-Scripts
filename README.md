@@ -4,3 +4,6 @@
 > reference use.
 
 > This is when Senal was taking CS Classes in High School.  
+
+
+> Now, this will be updated again with other stuff to increase the self learning
