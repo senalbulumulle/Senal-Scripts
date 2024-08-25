@@ -1,5 +1,7 @@
 <img src = "./Senal-Scripts.png">
 
+# Senal-Scripts
+
 > This repository used to be private but now it is released for 
 > reference use.
 
