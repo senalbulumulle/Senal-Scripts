@@ -7,3 +7,9 @@ Installation
 
 - sudo apt-get install lua-5.4
 
+
+
+Running
+----------------------------------------------------------------
+
+lua hello_world.lua
