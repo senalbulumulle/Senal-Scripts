@@ -13,3 +13,4 @@ Running
 ----------------------------------------------------------------
 
 lua hello_world.lua
+lua functions.lua
