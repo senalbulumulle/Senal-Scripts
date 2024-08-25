@@ -9,7 +9,7 @@ end
 function createTable()
     name   = "Hello"
     number = "123"
-    more   = {"Senal", "is", "Senal"}
+    more   = {"Senal", "is", "Senal"} -- Think of this like JSON -- 
 end
 
 
