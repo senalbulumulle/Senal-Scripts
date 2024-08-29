@@ -7,7 +7,7 @@ Functions.cpp
 #include <iostream>
 #include <stdlib.h>
 
-
+// Create a void function called hello_world
 void hello_function()
 {
     std::cout << "hello function" << std::endl;
@@ -16,5 +16,6 @@ void hello_function()
 
 int main()
 {
+	// Call the functions here
     hello_function();
 }
