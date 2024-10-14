@@ -14,4 +14,6 @@ Create two variables
 first_number  = 20
 second_number = 20
 
-first_number + second_number
+result = first_number + second_number
+
+print(result)
