@@ -5,3 +5,5 @@ for me specifically... to learn react the right way....
 
 
 
+- template
+- organize-components
