@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 
 
-import Buttons from './Button.js';
+import Buttons from './Buttons.js';
 import Spotlights from './Spotlights.js';
 import Other from './Other.js';
 
@@ -17,6 +17,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    {/* This is where you call it */}
+    <Buttons />
+    <Spotlights />
+    <Other />
   </React.StrictMode>
 );
 
