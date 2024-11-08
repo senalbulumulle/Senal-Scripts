@@ -9,4 +9,4 @@ Instructions
 Init Cargo Packages
 --------------------
 
-1. [cargo init]
+1. [cargo init <name>]
