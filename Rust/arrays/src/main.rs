@@ -2,7 +2,7 @@ fn main() {
  	// Here, this is where we are able to create an variable
 	// which stores that array of numbers 
 
-	let numberarray = [10, 20, 30, 40, 50]; 
+	let numberarray = [10, 20, 30, 40, 50, 60]; 
 
 
 	// Here, this is where we are able to pick the array
@@ -12,4 +12,15 @@ fn main() {
 	
 	let picknumberarray = numberarray.len();
 
+
+	// This is where we are able to print out the picknumberarray
+	// to test out if it is working or not. 
+	println!("{}", picknumberarray);
+
+
+	// Use the four loop to create a number array
+
+	for number in numberarray {
+		println!("The number is: {}", number);
+	}
 }
