@@ -23,4 +23,8 @@ fn main() {
 	for number in numberarray {
 		println!("The number is: {}", number);
 	}
+
+
+    let particular_number = numberarray[2];
+    println!("{}", particular_number);
 }
