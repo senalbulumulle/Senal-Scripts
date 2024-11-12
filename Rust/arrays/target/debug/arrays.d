@@ -1,1 +1,1 @@
-/home/senal/Coee/senal-scripts/Rust/arrays/target/debug/arrays: /home/senal/Coee/senal-scripts/Rust/arrays/src/main.rs
+/home/senal/Code/senal-scripts/Rust/arrays/target/debug/arrays: /home/senal/Code/senal-scripts/Rust/arrays/src/main.rs
