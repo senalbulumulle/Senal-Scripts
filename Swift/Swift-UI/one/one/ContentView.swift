@@ -9,6 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
+        // Definition:
+        
+        // Think of VStack as the vertical view
         VStack {
             Text("Hello, world!")
         }
