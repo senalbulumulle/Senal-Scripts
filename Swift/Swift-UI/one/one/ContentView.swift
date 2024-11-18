@@ -13,6 +13,7 @@ struct ContentView: View {
         // Definition:
         
         // Think of VStack as the vertical view
+        
         VStack {
             Text("Hello, world!")
         }
