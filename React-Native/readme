@@ -46,9 +46,9 @@ You need to have watchman enabled before running [npm run <device>]
 If it is disabled... this is the notice you will get from the terminal
 
 [
-
-    
-
+    Watchman is installed but was likely not enabled when starting Metro, try starting your project again.
+    If this problem persists, follow the troubleshooting guide of Watchman: https://facebook.github.io/watchman/docs/troubleshooting
+    Error: EMFILE: too many open files, watch
 ]
 
 
