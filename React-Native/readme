@@ -24,8 +24,18 @@ https://reactnative.dev/docs/set-up-your-environment
 ON macOS
 
 [brew install watchman]
+[npm install -g react-native-cli]
+[xcode-select --install]
+[npx react-native init ProjectName]
 
 
+RUN
+--- 
+
+[cd template
+npm run android
+npm run ios
+npm run web]
 
 
 ----------------------------------------------------------------
