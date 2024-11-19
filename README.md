@@ -9,3 +9,7 @@
 
 
 > Now, this will be updated again with other stuff to increase the self learning
+
+
+
+## TASKS
