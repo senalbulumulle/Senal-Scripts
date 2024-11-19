@@ -16,6 +16,7 @@ struct ContentView: View {
             {
                 LinearGradient(gradient: Gradient(colors: [.purple, .green]), startPoint: .topLeading, endPoint: .bottomTrailing)
 
+                    // Full thing
                     .ignoresSafeArea() 
 
                 VStack 
