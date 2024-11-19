@@ -38,6 +38,20 @@ npm run ios
 npm run web]
 
 
+
+
+NOTICES: 
+
+You need to have watchman enabled before running [npm run <device>]
+If it is disabled... this is the notice you will get from the terminal
+
+[
+
+    
+
+]
+
+
 ----------------------------------------------------------------
 Tasks:
 ----------------------------------------------------------------
