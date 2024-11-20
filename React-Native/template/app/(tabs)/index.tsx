@@ -30,14 +30,14 @@ export default function HomeScreen() {
                               <ThemedView style={styles.titleContainer}>
                                         <ThemedText type="title">HomeScreen</ThemedText>
                               </ThemedView>
-                              
+
                               {/* <ThemedText>This app includes example code to help you get started.</ThemedText> */}
                     </ParallaxScrollView>
         </>
     );
 }
 
-
+// This is where you must include here
 
 const styles = StyleSheet.create({
           headerImage: {
