@@ -14,7 +14,7 @@ import { ThemedView } from '@/components/ThemedView';
 export default function HomeScreen() {
     return (
         <div>
-            hello world
+            <h1> hello world </h1>
         </div>
     );
 }
