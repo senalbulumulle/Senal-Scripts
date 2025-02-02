@@ -1,0 +1,7 @@
+#+TITLE: Introduction
+
+Welcome to the documentation, this documentation is served as
+a place of organization in this repository, including references
+and tutorials as well. This repository has been started since 2019
+when Senal was in High School. With the goal of using it as a
+reference place if Senal doesn't remember anything...
